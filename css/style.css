@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Rubik:wght@300&family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Zen+Kurenaido&display=swap");
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Supermercado One', cursive; 
+font-family: 'Zen Kurenaido', sans-serif;*/
+* {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  width: 1489;
+  box-shadow: 0px 0px 18px #888888;
+  background: url(/css/styleimages/background.png);
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  background-size: 100vw 400px;
+  color: white;
+  backface-visibility: visible;
+}
+#header {
+  color: black;
+  padding-left: 10px;
+  height: 30px;
+  background-color: #f3f7fb;
+  display: flex;
+}
+#headerpara {
+  width: 17%;
+  font-size: 70%;
+  padding-top: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+#accbtn {
+  margin-left: 70%;
+  margin-top: 5px;
+}
+.accbtn2 {
+  text-decoration: none;
+  color: white;
+}
+.headerbtn {
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+}
+#signup {
+  background-color: #4ca800;
+  width: 82px;
+  height: 22px;
+}
+#signin {
+  background-color: #2c75c9;
+  width: 50px;
+  height: 22px;
+}
+.resbtn {
+  margin-top: 2px;
+}
+#nav2 {
+  display: none;
+}
+.navbar {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  background: white;
+}
+#hamburger {
+  float: inline-end;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 18px;
+  width: 22px;
+  margin-left: 93%;
+  margin-top: -44px;
+  position: absolute;
+}
+.hamitems {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 17px;
+  margin-top: 3px;
+  margin-left: 1.5px;
+}
+#menu {
+  position: absolute;
+  width: 100vw;
+  display: none;
+  height: 200px;
+  background-color: white;
+}
+.items {
+  color: white;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 19px;
+}
+.navlinks {
+  font-family: "Supermercado One", cursive;
+  text-decoration: none;
+  color: rgb(46, 108, 241);
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-top: -19px;
+}
+#centerhead {
+  width: 40%;
+  height: 300px;
+  margin-left: 23%;
+  margin-top: 5%;
+  align-items: center;
+}
+#centerhead1 {
+  font-size: 170%;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+#centerpara {
+  font-size: 80%;
+  font-family: "Comfortaa", cursive;
+}
+.centerbtn {
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  background-color: #2c75c9;
+  width: 70px;
+  height: 22px;
+  text-decoration: none;
+  /* margin-left: 5px; */
+}
+.centerbtn2 {
+  text-decoration: none;
+  color: white;
+}
+#features {
+  color: black;
+  margin-left: 10%;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+.cardmain {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  margin-left: 7%;
+
+  width: 20%;
+  height: 400px;
+  text-align: center;
+}
+.cardimg {
+  width: 100%;
+  height: 50%;
+}
+.featbtn {
+  background: none;
+  border: none;
+}
+.featlink {
+  background: none;
+  text-decoration: none;
+  color: black;
+}
+#footer1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 110%;
+  border: 2px solid black;
+  background-color: black;
+  height: 400px;
+}
+#footimg {
+  height: 400px;
+  width: 60%;
+}
+#foot1container {
+  width: 29%;
+  margin-left: 49%;
+  display: block;
+  position: absolute;
+  font-size: 83%;
+}
+#foot1btn {
+  background-color: #2c75c9;
+  box-sizing: inherit;
+  font-family: "Rubik", sans-serif;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  height: 30px;
+  width: 125px;
+}
+#foot1link {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1397px) {
+  #main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #foot1container {
+    width: 30%;
+    margin-left: 62%;
+    display: block;
+    position: absolute;
+  }
+  #accbtn {
+    margin-left: 67%;
+  }
+}
+@media only screen and (max-width: 1056px) {
+  #header {
+    display: none;
+  }
+  #nav1 {
+    display: none;
+  }
+  #nav2 {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .cardmain {
+    display: block;
+    width: 72%;
+  }
+  #centerhead {
+    height: 270px;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  #centerhead {
+    padding-top: 5%;
+    font-size: 83%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #centerhead {
+    height: 300px;
+    margin-top: -10px;
+  }
+  #features {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  #foot1container {
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #centerhead {
+    margin-top: -10px;
+  }
+  #featurehead {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .hamburger {
+    margin-left: 89%;
+  }
+  #centerhead {
+    font-size: 72%;
+  }
+}
+@media only screen and (max-width: 341px) {
+  #hamburger {
+    margin-left: 83%;
+  }
+  #foot1btn {
+    width: 76px;
+    font-size: 11px;
+  }
+  #foot1container {
+    font-size: 40%;
+  }
+}
+@media only screen and (max-width: 260px) {
+  #centerhead {
+    font-size: 61%;
+  }
+}
