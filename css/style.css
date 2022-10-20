@@ -95,17 +95,23 @@ font-family: 'Zen Kurenaido', sans-serif;*/
 #menu {
   position: absolute;
   width: 100vw;
-  display: none;
-  height: 200px;
+  /* display: none; */
+  height: 0px;
   background-color: white;
+  transition: height 0.50s;
+  position: fixed;
+  z-index: 1;
+  overflow-y: hidden;
 }
 .items {
   color: white;
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 19px;
+  padding-top: 19px; 
+  
 }
+
 .navlinks {
   font-family: "Supermercado One", cursive;
   text-decoration: none;

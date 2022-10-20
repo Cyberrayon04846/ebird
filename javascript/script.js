@@ -1,37 +1,20 @@
-console.log(`this is script.js`);
-// async function fetchnews() {
-//     // console.log(input);
-
-// let response = await fetch(
-//   `/data/data.json`
-// );
-// let user = await response.json();
-// return user;
-// }
-
-// let news = fetchnews();
-// news.then((data) => {
-//     console.log(data.birdName)
-
-//     data.forEach(element => {
-//         console.log(element.birdName)
-//     });
-// })
-let hamburger = document.getElementById('hamburger');
-let menu = document.getElementById('menu');
-console.log(hamburger)
-
+// declare const variable
+const hamburger = document.getElementById('hamburger');
+const menu = document.getElementById('menu');
+const  collaspe =document.getElementById("collaspe")
+// declare dropdown fuction
 hamburger.addEventListener('click' , dropdown);
-
+// function for drop down
 function dropdown() {
     // let height = menu.style.height;
     console.log("clicked");
     // console.log(height)
    
-    if( menu.style.display != 'none'){ 
-        menu.style.display = 'none'
+    if( menu.style.height != '0px'){ 
+        menu.style.height = '0px'
     }
     else{
-       menu.style.display = 'block'
+       menu.style.height = '200px'
     }
+  
 }
